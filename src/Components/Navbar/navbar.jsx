@@ -23,8 +23,8 @@ const Navbar = () => {
             <FiSearch/>
             <input type="text" placeholder='Buscar' />
         </div>
-        <FaFacebook className='navbar-icon'/>
-        <FaTwitter className='navbar-icon'/>
+        <FaFacebook  size={24} className='navbar-icon'/>
+        <FaTwitter size={24} className='navbar-icon'/>
 
         </div>    
     </nav>

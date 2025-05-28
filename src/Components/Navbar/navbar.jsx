@@ -11,10 +11,10 @@ const Navbar = () => {
             <li className="navbar-element"> <a href="#" className='nav-item'>Podcast </a></li>
             <li className="navbar-element"> <a href="#" className='nav-item'>Proyectos </a></li> 
             <li className="navbar-element"> <a href="#" className='nav-item'>Galería</a></li>
-            <li className="navbar-element"> <a href="#" className='nav-dropdown'>Más ▼</a>
+            <li className="navbar-element nav-dropdown"> <a href="#" className='nav-dropdown'>Más ▼</a>
             <ul className='dropdown-content'>
-                <li className='dropdown-element'><a className='dropdown-item' href="#"></a>Item 1</li>
-                <li className='dropdown-element'><a className='dropdown-item' href="#"></a>Item 2</li>
+                <li className='dropdown-element'><a className='dropdown-item' href="#">Item 1 </a></li>
+                <li className='dropdown-element'><a className='dropdown-item' href="#">Item 2</a></li>
             </ul>
             </li>
         </ul>
@@ -23,8 +23,8 @@ const Navbar = () => {
             <FiSearch/>
             <input type="text" placeholder='Buscar' />
         </div>
-        <FaFacebook/>
-        <FaTwitter/>
+        <FaFacebook className='navbar-icon'/>
+        <FaTwitter className='navbar-icon'/>
 
         </div>    
     </nav>
